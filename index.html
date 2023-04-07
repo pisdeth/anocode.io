@@ -1,100 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>IT-сервис - лендинг</title>
+	<title>Online Programming Courses</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <!-- Заголовок страницы -->
-    <h1>IT-сервис</h1>
-    <!-- Навигационное меню -->
-    <nav>
-      <ul>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Цены</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-  </header>
+	<header>
+		<h1>Online Programming Courses</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Courses</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  <main>
-    <!-- Секция 1 - Приветствие -->
-    <section>
-      <h2>Добро пожаловать в наш IT-сервис</h2>
-      <p>Мы предоставляем полный спектр услуг в сфере информационных технологий.</p>
-      <button>Узнать больше</button>
-    </section>
+	<main>
+		<section id="hero">
+			<h2>Learn to Code Online</h2>
+			<p>Get started with our online programming courses today.</p>
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="Enter your email address">
+				<input type="submit" value="Subscribe">
+			</form>
+		</section>
 
-    <!-- Секция 2 - Услуги -->
-    <section>
-      <h2>Наши услуги</h2>
-      <ul>
-        <li>Веб-разработка</li>
-        <li>Мобильная разработка</li>
-        <li>Облачные решения</li>
-        <li>ИТ-консалтинг</li>
-      </ul>
-      <button>Подробнее</button>
-    </section>
+		<section id="courses">
+			<h2>Our Courses</h2>
+			<div class="card">
+				<h3>Introduction to Python</h3>
+				<p>Learn the basics of Python programming.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+			<div class="card">
+				<h3>Web Development with HTML/CSS/JS</h3>
+				<p>Learn to create dynamic web pages with HTML, CSS, and JavaScript.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+			<div class="card">
+				<h3>Mobile App Development with React Native</h3>
+				<p>Learn to create mobile apps with React Native.</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+		</section>
+	</main>
 
-    <!-- Секция 3 - Кейсы -->
-    <section>
-      <h2>Наш опыт</h2>
-      <p>Мы работали с многими крупными компаниями, и у нас есть множество успешных кейсов.</p>
-      <ul>
-        <li><a href="#">Кейс 1</a></li>
-        <li><a href="#">Кейс 2</a></li>
-        <li><a href="#">Кейс 3</a></li>
-        <li><a href="#">Кейс 4</a></li>
-      </ul>
-      <button>Больше кейсов</button>
-    </section>
+	<footer>
+		<p>&copy; 2023 Online Programming Courses</p>
+	</footer>
 
-    <!-- Секция 4 - Отзывы -->
-    <section>
-      <h2>Отзывы клиентов</h2>
-      <ul>
-        <li>
-          <h3>Иван Иванов</h3>
-          <p>Отличный сервис! Быстро и качественно реш
-      </ul>
-      <button>Все отзывы</button>
-    </section>
-
-    <!-- Секция 5 - Контакты -->
-    <section>
-      <h2>Свяжитесь с нами</h2>
-      <form action="submit.php" method="post">
-        <label for="name">Имя:</label>
-        <input type="text" name="name" id="name">
-
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
-
-        <label for="message">Сообщение:</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-        <button type="submit">Отправить</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <!-- Нижнее меню -->
-    <nav>
-      <ul>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Цены</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </nav>
-    <!-- Копирайт -->
-    <p>© 2023 IT-сервис. Все права защищены.</p>
-  </footer>
 </body>
 </html>
