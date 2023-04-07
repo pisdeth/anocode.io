@@ -1,0 +1,168 @@
+/* Типографика */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Секция 1 - Главное меню */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+nav a:first-of-type {
+  margin-left: 0;
+}
+
+/* Секция 2 - Заголовок */
+
+header {
+  background-image: url('https://www.apple.com/v/home/ar/images/heroes/macos/hero_macos_small_2x.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+header p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* Секция 3 - Особенности */
+
+section:nth-of-type(3) {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+  text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+section:nth-of-type(3) li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+section:nth-of-type(3) li:last-of-type {
+  margin-right: 0;
+}
+
+section:nth-of-type(3) li img {
+  width: 100px;
+}
+
+section:nth-of-type(3) li h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Секция 4 - Контакты */
+
+section:nth-of-type(4) {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+section:nth-of-type(4) h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contact li {
+  margin-right: 20px;
+}
+
+.contact li:last-of-type {
+  margin-right: 0;
+}
+
+.contact a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
