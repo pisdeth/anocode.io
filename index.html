@@ -1,55 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Online Programming Courses</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CodeLess - Create websites without code</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<h1>Online Programming Courses</h1>
+		<h1>CodeLess</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Courses</a></li>
-				<li><a href="#">About Us</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Pricing</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-
 	<main>
 		<section id="hero">
-			<h2>Learn to Code Online</h2>
-			<p>Get started with our online programming courses today.</p>
+			<h2>Create websites without code</h2>
+			<p>With CodeLess, you can create beautiful, professional-looking websites without any programming knowledge. Just drag and drop elements to customize your site exactly how you want it.</p>
+			<a href="#" class="button">Get started for free</a>
+		</section>
+		<section id="features">
+			<h2>Features</h2>
+			<ul>
+				<li>Easy drag-and-drop interface</li>
+				<li>Customizable templates and themes</li>
+				<li>Integrations with popular services like Google Analytics and Mailchimp</li>
+				<li>Responsive design for all devices</li>
+			</ul>
+		</section>
+		<section id="pricing">
+			<h2>Pricing</h2>
+			<ul>
+				<li>Free - Create one website with limited features</li>
+				<li>Standard - Create unlimited websites with all features for $9.99/month</li>
+				<li>Premium - Create unlimited websites with all features, plus priority support for $19.99/month</li>
+			</ul>
+			<a href="#" class="button">Sign up now</a>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Have a question or need help? Contact us and we'll get back to you as soon as possible.</p>
 			<form action="#" method="post">
-				<input type="email" name="email" placeholder="Enter your email address">
-				<input type="submit" value="Subscribe">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit" class="button">Send</button>
 			</form>
 		</section>
-
-		<section id="courses">
-			<h2>Our Courses</h2>
-			<div class="card">
-				<h3>Introduction to Python</h3>
-				<p>Learn the basics of Python programming.</p>
-				<a href="#" class="button">Learn More</a>
-			</div>
-			<div class="card">
-				<h3>Web Development with HTML/CSS/JS</h3>
-				<p>Learn to create dynamic web pages with HTML, CSS, and JavaScript.</p>
-				<a href="#" class="button">Learn More</a>
-			</div>
-			<div class="card">
-				<h3>Mobile App Development with React Native</h3>
-				<p>Learn to create mobile apps with React Native.</p>
-				<a href="#" class="button">Learn More</a>
-			</div>
-		</section>
 	</main>
-
 	<footer>
-		<p>&copy; 2023 Online Programming Courses</p>
+		<p>&copy; 2023 CodeLess. All rights reserved.</p>
 	</footer>
-
 </body>
 </html>
