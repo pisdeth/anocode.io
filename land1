@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IT-сервис - лендинг</title>
+</head>
+<body>
+  <header>
+    <!-- Заголовок страницы -->
+    <h1>IT-сервис</h1>
+    <!-- Навигационное меню -->
+    <nav>
+      <ul>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Секция 1 - Приветствие -->
+    <section>
+      <h2>Добро пожаловать в наш IT-сервис</h2>
+      <p>Мы предоставляем полный спектр услуг в сфере информационных технологий.</p>
+      <button>Узнать больше</button>
+    </section>
+
+    <!-- Секция 2 - Услуги -->
+    <section>
+      <h2>Наши услуги</h2>
+      <ul>
+        <li>Веб-разработка</li>
+        <li>Мобильная разработка</li>
+        <li>Облачные решения</li>
+        <li>ИТ-консалтинг</li>
+      </ul>
+      <button>Подробнее</button>
+    </section>
+
+    <!-- Секция 3 - Кейсы -->
+    <section>
+      <h2>Наш опыт</h2>
+      <p>Мы работали с многими крупными компаниями, и у нас есть множество успешных кейсов.</p>
+      <ul>
+        <li><a href="#">Кейс 1</a></li>
+        <li><a href="#">Кейс 2</a></li>
+        <li><a href="#">Кейс 3</a></li>
+        <li><a href="#">Кейс 4</a></li>
+      </ul>
+      <button>Больше кейсов</button>
+    </section>
+
+    <!-- Секция 4 - Отзывы -->
+    <section>
+      <h2>Отзывы клиентов</h2>
+      <ul>
+        <li>
+          <h3>Иван Иванов</h3>
+          <p>Отличный сервис! Быстро и качественно реш
+      </ul>
+      <button>Все отзывы</button>
+    </section>
+
+    <!-- Секция 5 - Контакты -->
+    <section>
+      <h2>Свяжитесь с нами</h2>
+      <form action="submit.php" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="message">Сообщение:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Нижнее меню -->
+    <nav>
+      <ul>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <!-- Копирайт -->
+    <p>© 2023 IT-сервис. Все права защищены.</p>
+  </footer>
+</body>
+</html>
